@@ -28,17 +28,17 @@ O sistema Registra os produtos no Banco.
 		                              		+---------------------+                          
                                       
 		+----------------------------------+                 
-		|  CadastroView                    |                  
+		|  CadastroView            	        |                  
 		+----------------------------------+                
-		| -textFieldNome: TextField        |         
-		| -textFieldSobrenome: TextField   |          
-		| -textFieldUsuario: TextField     |           
-		| -textFieldSenha: PasswordField   |           
-		| -textFieldEmail: TextField       |         
-		| -datePickerNascimento: DatePicker|           
-		| -salvar: Button                  |           
-		| -cancelar: Button                |           
-		| -excluir: Button                 |           
+		| -textFieldNome: TextField   	     |         
+		| -textFieldSobrenome: TextField 	  |          
+		| -textFieldUsuario: TextField   	  |           
+		| -textFieldSenha: PasswordField  	 |           
+		| -textFieldEmail: TextField      	 |         
+		| -datePickerNascimento: DatePicker	|           
+		| -salvar: Button             	     |           
+		| -cancelar: Button              	  |           
+		| -excluir: Button               	  |           
 		+----------------------------------+                 
 		    		  |                               
 				  |                            
