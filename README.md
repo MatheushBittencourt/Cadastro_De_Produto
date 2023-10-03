@@ -31,22 +31,22 @@ O sistema Registra os produtos no Banco.
 		                              		+---------------------+                          
                                       
 		+----------------------------------+                 
-		|  CadastroView            	        |                  
+		|           CadastroView    	     |                  
 		+----------------------------------+                
 		| -textFieldNome: TextField   	     |         
-		| -textFieldSobrenome: TextField 	  |          
-		| -textFieldUsuario: TextField   	  |           
-		| -textFieldSenha: PasswordField  	 |           
-		| -textFieldEmail: TextField      	 |         
-		| -datePickerNascimento: DatePicker	|           
+		| -textFieldSobrenome: TextField     |          
+		| -textFieldUsuario: TextField       |           
+		| -textFieldSenha: PasswordField     |           
+		| -textFieldEmail: TextField         |         
+		| -datePickerNascimento: DatePicker  |           
 		| -salvar: Button             	     |           
-		| -cancelar: Button              	  |           
-		| -excluir: Button               	  |           
+		| -cancelar: Button                  |           
+		| -excluir: Button                   |           
 		+----------------------------------+                 
 		    		  |                               
 				  |                            
 		+------------------------------------------+                
-		|  LoginView                               |                
+		|              LoginView                   |                
 		+------------------------------------------+               
 		| -textFieldUsuario: TextField             |        
 		| -textFieldSenha: PasswordField           |                                   
@@ -55,7 +55,7 @@ O sistema Registra os produtos no Banco.
 				 |   
 		 		 |   
 		+-----------------------------+
-		|   AutenticacaoService       |
+		|     AutenticacaoService     |
 		+-----------------------------+
 		| +autenticar(usuario: String |  
 		| senha: String): boolean     |  
