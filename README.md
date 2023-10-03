@@ -27,33 +27,33 @@ O sistema Registra os produtos no Banco.
 		                              		| +obterTodosProdutos |                          
 		                              		+---------------------+                          
                                       
-+----------------------------------+                 
-|  CadastroView                    |                  
-+----------------------------------+                
-| -textFieldNome: TextField        |         
-| -textFieldSobrenome: TextField   |          
-| -textFieldUsuario: TextField     |           
-| -textFieldSenha: PasswordField   |           
-| -textFieldEmail: TextField       |         
-| -datePickerNascimento: DatePicker|           
-| -salvar: Button                  |           
-| -cancelar: Button                |           
-| -excluir: Button                 |           
-+----------------------------------+                 
-      |                               
-      |                            
-+------------------------------------------+                
-|  LoginView                               |                
-+------------------------------------------+               
-| -textFieldUsuario: TextField             |        
-| -textFieldSenha: PasswordField           |                                   
-| -autenticacaoService: AutenticacaoService|  
-+------------------------------------------+  
-		|   
- 		|   
-+-----------------------------+
-|   AutenticacaoService       |
-+-----------------------------+
-| +autenticar(usuario: String |  
-| senha: String): boolean     |  
-+-----------------------------+
+		+----------------------------------+                 
+		|  CadastroView                    |                  
+		+----------------------------------+                
+		| -textFieldNome: TextField        |         
+		| -textFieldSobrenome: TextField   |          
+		| -textFieldUsuario: TextField     |           
+		| -textFieldSenha: PasswordField   |           
+		| -textFieldEmail: TextField       |         
+		| -datePickerNascimento: DatePicker|           
+		| -salvar: Button                  |           
+		| -cancelar: Button                |           
+		| -excluir: Button                 |           
+		+----------------------------------+                 
+		    		  |                               
+				  |                            
+		+------------------------------------------+                
+		|  LoginView                               |                
+		+------------------------------------------+               
+		| -textFieldUsuario: TextField             |        
+		| -textFieldSenha: PasswordField           |                                   
+		| -autenticacaoService: AutenticacaoService|  
+		+------------------------------------------+  
+				 |   
+		 		 |   
+		+-----------------------------+
+		|   AutenticacaoService       |
+		+-----------------------------+
+		| +autenticar(usuario: String |  
+		| senha: String): boolean     |  
+		+-----------------------------+
