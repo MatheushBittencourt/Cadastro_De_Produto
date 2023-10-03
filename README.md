@@ -1,8 +1,11 @@
 # Cadastro_De_Produto
 
 Como usuário, quero poder cadastrar minha conta e fazer login no sistema. 
+
 Como usuario quero consultar, adicionar, editar meus produtos.
+
 O sistema faz aututenticação de Usuário e registra.
+
 O sistema Registra os produtos no Banco.
 
 
