@@ -10,7 +10,7 @@ O sistema Registra os produtos no Banco.
 
 
 		+----------------------+     		+------------------+  
-		|      Pessoa          |      		|   Produto        |        
+		|       Pessoa         |      		|      Produto     |        
 		+----------------------+       		+------------------+        
 		| -nome: String        |       		| -id: int         |    
 		| -sobrenome: String   |       		| -modelo: String  |        
@@ -22,7 +22,7 @@ O sistema Registra os produtos no Banco.
 		      |      |                     		|     |                 
 		      |      |                     		|     |                                   
 		+---------------------+       		+---------------------+                          
-		|      PessoaDAO      |      		     ProdutoDao      |                          
+		|      PessoaDAO      |      		|     ProdutoDao      |                          
 		+---------------------+       		+---------------------+                          
 		| +inserirPessoa()    |       		| +adicionarProduto() |                          
 		| +excluirPessoa()    |       		| +atualizarProduto() |                          
@@ -30,9 +30,9 @@ O sistema Registra os produtos no Banco.
 		                              		| +obterTodosProdutos |                          
 		                              		+---------------------+                          
                                       
-		+----------------------------------+                 
+		+-----------------------------==-----+                 
 		|           CadastroView    	     |                  
-		+----------------------------------+                
+		+------------------------------------+                
 		| -textFieldNome: TextField   	     |         
 		| -textFieldSobrenome: TextField     |          
 		| -textFieldUsuario: TextField       |           
