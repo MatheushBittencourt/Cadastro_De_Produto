@@ -6,26 +6,26 @@ O sistema faz aututenticação de Usuário e registra.
 O sistema Registra os produtos no Banco.
 
 
-+----------------------+       +------------------+  
-|      Pessoa          |       |   Produto        |        
-+----------------------+       +------------------+        
-| -nome: String        |       | -id: int         |    
-| -sobrenome: String   |       | -modelo: String  |        
-| -usuario: String     |       | -marca: String   |         
-| -senha: String       |       | -quantidade: int |        
-| -email: String       |       | -tipo: String    |       
-| -dataNascimento: Date|       | -data: Date      |       
-+----------------------+       +------------------+       
-      |      |                     |     |                 
-      |      |                     |     |                                   
-+---------------------+       +---------------------+                          
-|      PessoaDAO      |       |     ProdutoDao      |                          
-+---------------------+       +---------------------+                          
-| +inserirPessoa()    |       | +adicionarProduto() |                          
-| +excluirPessoa()    |       | +atualizarProduto() |                          
-+---------------------+       | +deletarProduto()   |                          
-                              | +obterTodosProdutos |                          
-                              +---------------------+                          
+		+----------------------+     		+------------------+  
+		|      Pessoa          |      		|   Produto        |        
+		+----------------------+       		+------------------+        
+		| -nome: String        |       		| -id: int         |    
+		| -sobrenome: String   |       		| -modelo: String  |        
+		| -usuario: String     |       		| -marca: String   |         
+		| -senha: String       |       		| -quantidade: int |        
+		| -email: String       |       		| -tipo: String    |       
+		| -dataNascimento: Date|       		| -data: Date      |       
+		+----------------------+       		+------------------+       
+		      |      |                     		|     |                 
+		      |      |                     		|     |                                   
+		+---------------------+       		+---------------------+                          
+		|      PessoaDAO      |      		     ProdutoDao      |                          
+		+---------------------+       		+---------------------+                          
+		| +inserirPessoa()    |       		| +adicionarProduto() |                          
+		| +excluirPessoa()    |       		| +atualizarProduto() |                          
+		+---------------------+       		| +deletarProduto()   |                          
+		                              		| +obterTodosProdutos |                          
+		                              		+---------------------+                          
                                       
 +----------------------------------+                 
 |  CadastroView                    |                  
